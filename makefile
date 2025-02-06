@@ -2,7 +2,7 @@
 TSHARK_CSV = tshark_output.csv
 PYTHON_CSV = Data_after_conversion.csv
 CPP_CSV = output.csv
-CPP_CSV = output2.csv
+CPP_CSV2 = output2.csv
 PCAPNG_FILE = selected_pcapng.txt  # File to store selected pcapng filename
 PYTHON_SCRIPT1 = HexToASCII.py
 PYTHON_SCRIPT2 = plot.py
