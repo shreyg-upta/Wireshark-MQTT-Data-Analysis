@@ -18,7 +18,7 @@ def convert_csv(input_csv, output_txt):
                 row.append('Missing Data')
 
     with open(output_txt, mode='w', newline='', encoding='utf-8') as outfile:  # Keep output UTF-8
-        writer = csv.writer(outfile, delimiter='|')
+        writer = csv.writer(outfile, delimiter='|', escapechar='\\')  # Escape special characters with backslash
         writer.writerows(data)
 
 
